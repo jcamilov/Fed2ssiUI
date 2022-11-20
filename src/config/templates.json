@@ -1,0 +1,17 @@
+[
+  {
+    "templateName": "t1 - Custom Dataspace",
+    "obligations": {
+      "openIdToken": { "j-idClaims": "", "j-accessClaims": "" },
+      "externalVCIssuer": { "j-resourceUrl": "" }
+    }
+  },
+  {
+    "templateName": "t2 - Mobility Dataspace",
+    "obligations": {
+      "openIdToken": { "j-idClaims": "", "j-accessClaims": "" },
+      "compliance": { "j-complianceLevel": "" },
+      "locationServices": { "j-locationProvider": "" }
+    }
+  }
+]
