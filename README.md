@@ -25,11 +25,14 @@ The app has been tested and runs ok with following versions:
 
 1. Make sure npm and node are installed
 
-2. (optional) Install "create-react-app" tool
+2. (optional) Install "create-react-app" tool.
+
 sudo npm install -g create-react-app
 
-3. Install tailwindcss
-Go directly to step on guide in this webpage [https://tailwindcss.com/docs/guides/create-react-app]https://tailwindcss.com/docs/guides/create-react-app
+3. Install tailwindcss.
+
+Go directly to step on guide in this webpage https://tailwindcss.com/docs/guides/create-react-app
 
 4. Install daisyui (this is just for making it look better in the future):
+
 npm i daisyui
