@@ -3,9 +3,7 @@ import { useState, createContext } from "react";
 const TemplateContext = createContext();
 
 export const TemplateProvider = ({ children }) => {
-  const [currentTemplate, setCurrentTemplate] = useState(
-    "select a template..."
-  );
+  const [currentTemplate, setCurrentTemplate] = useState("...");
   const [templateList, setTemplateList] = useState([]);
 
   const setTheCurrentTemplate = (value) => setCurrentTemplate(value);

@@ -1,17 +1,25 @@
 [
   {
-    "templateName": "t1 - Custom Dataspace",
+    "templateName": "Custom Dataspace",
     "obligations": {
-      "openIdToken": { "j-idClaims": "", "j-accessClaims": "" },
-      "externalVCIssuer": { "j-resourceUrl": "" }
+      "openIdToken": { "idClaims": "", "accessClaims": "" },
+      "externalVCIssuer": { "resourceUrl": "" }
     }
   },
   {
-    "templateName": "t2 - Mobility Dataspace",
+    "templateName": "Mobility Dataspace",
     "obligations": {
-      "openIdToken": { "j-idClaims": "", "j-accessClaims": "" },
-      "compliance": { "j-complianceLevel": "" },
-      "locationServices": { "j-locationProvider": "" }
+      "openIdToken": { "idClaims": "", "accessClaims": "" },
+      "compliance": { "complianceLevel": "" },
+      "locationServices": { "locationProvider": "" }
+    }
+  },
+  {
+    "templateName": "Health Dataspace",
+    "obligations": {
+      "openIdToken": { "idClaims": "", "accessClaims": "" },
+      "compliance": { "complianceLevel": "" },
+      "legalFramework": { "locationProvider": "" }
     }
   }
 ]
